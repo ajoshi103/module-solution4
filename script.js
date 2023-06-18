@@ -10,9 +10,9 @@
 
       
              if(firstLetter === 'j'){
-                 byeSpeaker(names[i]);
-             }
-             else {
+
+             
+             
                 helloSpeaker(names[i]);
             }
 
