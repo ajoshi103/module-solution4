@@ -19,12 +19,12 @@
 // xxxx.xxxx = helloSpeaker;
 
 
-(function(window) {
+(function() {
 	var speakWord = "Hello";
 	var helloSpeaker = function (name) {
 		console.log(speakWord + " " + name);
 	}
 
-	window.helloSpeaker = helloSpeaker;
+	this.helloSpeaker = helloSpeaker;
 
-})(window);
+})();
